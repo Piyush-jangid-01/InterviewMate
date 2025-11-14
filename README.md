@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+📘 InterviewMate — AI-Powered Mock Interview Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+InterviewMate is a full-featured React web application that helps users practice technical, behavioral, and mixed interviews using AI-generated questions, real-time feedback, detailed analytics, achievements, streak tracking, templates, and user-friendly dashboards.
 
-## Available Scripts
+This project is built using React, Lucide Icons, LocalStorage, and Google Gemini API for AI-based interview simulations.
 
-In the project directory, you can run:
+🚀 Features
+🎤 AI-Powered Mock Interviews
 
-### `npm start`
+Uses Google Gemini 1.5 Flash to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Ask interview questions one-by-one
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Evaluate answers
 
-### `npm test`
+Provide feedback
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Simulate real interview conversations
 
-### `npm run build`
+📝 Create Custom Interviews
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Choose:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Role
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Experience level
 
-### `npm run eject`
+Interview type (Technical / Behavioral / Mixed)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Difficulty
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Duration
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Focus areas
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Technologies
 
-## Learn More
+📊 Analytics Dashboard
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Total interviews
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Completed interviews
 
-### Code Splitting
+Pending interviews
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Average score
 
-### Analyzing the Bundle Size
+Recent activity
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🏆 Achievements System
 
-### Making a Progressive Web App
+Unlock achievements such as:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+First Interview
 
-### Advanced Configuration
+5 Interviews
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Perfect Score
 
-### Deployment
+Week Streak
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Night Owl
 
-### `npm run build` fails to minify
+Early Bird
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🌗 Theme Toggle
+
+Light & Dark Mode with smooth transitions
+
+🎯 Daily Streak Tracking
+🗂 Templates Page
+
+Pre-made interview templates for quick start
+
+🔧 User Settings
+
+Change name
+
+Update profile
+
+Customize theme
+
+💾 LocalStorage Persistence
+
+All user data, interviews, achievements, streaks, and themes are saved locally.
+
+🛠️ Tech Stack
+Technology	Purpose
+React	Frontend UI
+Google Gemini API	AI interview question + feedback
+Lucide-react	Icons
+LocalStorage	Client-side persistence
+CSS-in-JS (Inline Styles)	UI styling
+📂 Project Structure
+src/
+│── App.js
+│── config.js
+│── index.js
+│── assets/
+│── components/ (merged inside App.js for single-file)
+│── styles/ (inline styling)
+
+
+⚠️ This project uses a single-file architecture inside App.js for simplicity.
